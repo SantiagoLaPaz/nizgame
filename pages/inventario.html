@@ -4,48 +4,113 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="../css/style.css">
-  <title>NizGame</title>
+  <link rel="stylesheet" href="../css/estilos.css">
+  <meta name="description" content="Gestiona tu inventario de juegos con facilidad en NizGame. Mantén un control completo sobre tus adquisiciones y mejoras en un solo lugar.">
+  <meta name="keywords" content="nizgame, juegos, online, compra, venta, descarga, gratis, facil, seguro, rapido">
+  <meta property="og:type" content="E-commerce">
+  <meta property="og:title" content="NizGame | Inventario | Juegos">
+  <meta property="og:description" content="Gestiona tu inventario de juegos con facilidad en NizGame. Mantén un control completo sobre tus adquisiciones y mejoras en un solo lugar.">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
+  <title>NizGame | Inventario | Juegos </title>
 </head>
-<body>
+<body class="inventario">
   <header>
-    <h1>NizGame</h1>
-    <nav>
-      <ul>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="./tienda.html">Tienda</a></li>
-        <li><a href="./inventario.html">Inventario</a></li>
-        <li><a href="./biblioteca.html">Biblioteca</a></li>
-        <li><a href="./nosotros.html">Nosotros</a></li>
-      </ul>
-    </nav>
+    <h1>Niz<span>G</span>ame</h1>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">Inicio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="../pages/tienda.html">Tienda</a>
+              </li>
+              <li class="nav-item">
+              <a class="nav-link" href="../pages/inventario.html">Inventario</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/biblioteca.html">Biblioteca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+              </li>
+          </ul>
+              </li>
+          <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Buscar</button>
+          </form>
+      </div>
+      </div>
+  </nav>
   </header>
-  <Main>
-    <div class="hero">
-      <h2>Bienvenido a nuestra tienda de videojuegos</h2>
-      <p>Encuentra los últimos lanzamientos y las mejores ofertas</p>
-      <a href="#" class="button">Ver Juegos</a>
+  <main>
+    <h2>Skins más usadas</h2>
+    <section class="skins-top">
+      <div class="skins-card">
+        <div class="skins-image">
+          <img src="../img/retroblast.png" alt="RetroBlast-Skin">
+        </div>
+          <p>Retro Blast Thomphson</p>
+      </div>
+        <div class="skins-card">
+          <div class="skins-image">
+            <img src="../img/usp.png" alt="USP-Skin">
+          </div>
+            <p>USP - Rare Skin</p>
+        </div>
+          <div class="skins-card">
+            <div class="skins-image">
+              <img src="../img/sg553.png" alt="SG553-Skin">
+            </div>
+              <p>Sg553</p>
+          </div>
+    </section>
+    <h3>Tus Skins</h3>
+    <section class="skins-my">
+      <div class="skins-card">
+        <div class="skins-image">
+          <img src="../img/glock-18-water.png" alt="Glock-Water-Skin">
+        </div>
+          <p>Glock-18 Water Elementary</p>
+      </div>
+        <div class="skins-card">
+          <div class="skins-image">
+            <img src="../img/usp.png" alt="USP-Skin">
+          </div>
+            <p>USP - Rare Skin</p>
+        </div>
+          <div class="skins-card">
+            <div class="skins-image">
+              <img src="../img/sg553.png" alt="SG553-Skin">
+            </div>
+              <p>Sg553</p>
+          </div>
+          <div class="skins-card">
+            <div class="skins-image">
+              <img src="../img/awphyper.png" alt="AwpHB-Skin">
+            </div>
+              <p>Awp Hyper Beast</p>
+          </div>
+          <div class="skins-card">
+            <div class="skins-image">
+              <img src="../img/metalwaves.png" alt="MetalWaves-Skin">
+            </div>
+              <p>Metal Waves Bow</p>
+          </div>
+    </section>
+  </main>
+  <footer id="contacto">
+    <img src="" alt="">
+    <div>
+      <img src="../img/instagram.png" alt="Logo Instagram">
+      <img src="../img/facebook.png" alt="Logo Facebook">
+      <img src="../img/whatsapp.png" alt="Logo Whatsapp">
     </div>
-
-    <section>
-      <h3>Últimos lanzamientos</h3>
-      <h4>Resident Evil 4 Remake</h4>
-    </section>
-
-    <section>
-      <h3>Ofertas especiales</h3>
-      <nav>
-        <ul>
-          <li><a href="#">Hollow Knight</a></li>
-          <li><a href="#">Minecraft</a></li>
-          <li><a href="#">TWD</a></li>
-          <li><a href="#">RD2</a></li>
-        </ul>
-      </nav>
-    </section>
-  </Main>
-  <footer>
-    <p>Derechos de autor &copy; NizGame</p>
   </footer>
 </body>
 </html>

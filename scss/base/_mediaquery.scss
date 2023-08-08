@@ -1,0 +1,58 @@
+/* Tablet */
+@media screen and (max-width:900px){
+    .game-buy{
+      grid-template-columns: repeat(2, 1fr);
+    }
+  
+    .game-card {
+      background-color: rgb(29, 28, 28);
+      color: rgb(255, 255, 255);
+    }
+  }
+ 
+  /* Telefono */
+    
+  @media screen and (max-width:768px){
+    .game-buy{
+      grid-template-columns: repeat(1, 1fr);
+    }
+  
+    .game-card {
+      background-color: rgb(29, 28, 28);
+      color: rgb(255, 255, 255);
+    }
+  }
+
+    /* Inventario */
+    @media screen and (max-width:768px){
+    .inventario .skins-top{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .inventario .skins-my{
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    .inventario .skins-card {
+      background-color: rgb(29, 28, 28);
+      color: white;
+    }    
+  } 
+  
+  @media screen and (max-width:899px){
+    .inventario .skins-top{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .inventario .skins-my{
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .inventario .skins-card {
+      background-color: rgb(29, 28, 28);
+      color: white;
+    }
+
+  }
+ 
+  

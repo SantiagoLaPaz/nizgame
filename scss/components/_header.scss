@@ -1,0 +1,10 @@
+header {
+    background-color: #ffffff;
+    color: nth($colors , 1);
+    padding: 20px;
+    h1{
+        span{
+            color: nth($colors , 2);
+        }
+    }
+}

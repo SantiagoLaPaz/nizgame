@@ -1,0 +1,173 @@
+header {
+  background-color: #ffffff;
+  color: #000000;
+  padding: 20px; }
+  header h1 span {
+    color: #008829; }
+
+.welcome {
+  background-color: black; }
+  .welcome h2 {
+    color: white;
+    text-align: center; }
+    .welcome h2 span {
+      color: #008829; }
+  .welcome p {
+    color: white;
+    text-align: center; }
+
+h3 {
+  text-align: center; }
+
+.game-buy {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px; }
+  .game-buy .game-card {
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; }
+    .game-buy .game-card .card-image {
+      width: 100%;
+      max-height: 200px;
+      overflow: hidden;
+      border-radius: 5px; }
+      .game-buy .game-card .card-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center; }
+
+h2, p {
+  margin: 10px 0; }
+
+button {
+  background-color: #333;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer; }
+
+/* Page Inventario */
+main h2 {
+  text-align: center;
+  color: white;
+  background-color: black; }
+
+main h3 {
+  text-align: center;
+  color: white;
+  background-color: black; }
+
+main .skins-top {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px; }
+  main .skins-top .skins-card {
+    background-color: #1d1c1c;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; }
+    main .skins-top .skins-card .skins-image {
+      width: 100%;
+      max-height: 200px;
+      overflow: hidden;
+      border-radius: 5px; }
+      main .skins-top .skins-card .skins-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center; }
+
+main .skins-my {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  padding: 20px; }
+  main .skins-my .skins-card {
+    background-color: #1d1c1c;
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: center; }
+    main .skins-my .skins-card .skins-image {
+      width: 100%;
+      max-height: 200px;
+      overflow: hidden;
+      border-radius: 5px; }
+      main .skins-my .skins-card .skins-image img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: center; }
+
+/* Page Biblioteca */
+.flex-card {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between; }
+  .flex-card .games-card {
+    width: calc(25% - 20px);
+    margin: 10px;
+    background-color: #2c2c2c;
+    border: 1px solid #222222;
+    padding: 10px;
+    color: white; }
+    .flex-card .games-card .games-image img {
+      max-width: 100%;
+      height: auto; }
+
+/* Page Nosotros */
+.hero h3 {
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+.hero h4 {
+  background-color: black;
+  color: white;
+  text-align: center; }
+
+footer img {
+  width: 30px; }
+
+/* Tablet */
+@media screen and (max-width: 900px) {
+  .game-buy {
+    grid-template-columns: repeat(2, 1fr); }
+  .game-card {
+    background-color: #1d1c1c;
+    color: white; } }
+
+/* Telefono */
+@media screen and (max-width: 768px) {
+  .game-buy {
+    grid-template-columns: repeat(1, 1fr); }
+  .game-card {
+    background-color: #1d1c1c;
+    color: white; } }
+
+/* Inventario */
+@media screen and (max-width: 768px) {
+  .inventario .skins-top {
+    grid-template-columns: repeat(1, 1fr); }
+  .inventario .skins-my {
+    grid-template-columns: repeat(1, 1fr); }
+  .inventario .skins-card {
+    background-color: #1d1c1c;
+    color: white; } }
+
+@media screen and (max-width: 899px) {
+  .inventario .skins-top {
+    grid-template-columns: repeat(2, 1fr); }
+  .inventario .skins-my {
+    grid-template-columns: repeat(2, 1fr); }
+  .inventario .skins-card {
+    background-color: #1d1c1c;
+    color: white; } }

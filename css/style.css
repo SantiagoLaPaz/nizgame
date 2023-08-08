@@ -163,7 +163,6 @@ body {
     padding: 20px;
   }
 
-
   /* Page Biblioteca */
   
   .flex-cards {
@@ -179,11 +178,16 @@ body {
     border: 1px solid #222222;
     padding: 10px;
     color: white;
+    transition: 1s;
   }
 
   .games-image img{
     max-width: 100%;
     height: auto;
+  }
+
+  .biblioteca .games-card:hover{
+    transform: scale(1.2);
   }
 
   /* Tablet */

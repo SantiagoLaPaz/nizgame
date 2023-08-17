@@ -1,3 +1,4 @@
+/* INDEX */
 /* Tablet */
 @media screen and (max-width:900px){
     .game-buy{
@@ -55,4 +56,18 @@
 
   }
  
+  /* Biblioteca */
+   /* Tablet */
+  @media screen and (max-width:900px){
+    .biblioteca .games-card{
+      width: calc(33.33% - 20px); 
+  }
+}
+
+/* Telefono */
   
+@media screen and (max-width:768px){
+  .biblioteca .games-card{
+    width: calc(50% - 20px); 
+  }
+}

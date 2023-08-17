@@ -25,7 +25,7 @@ h3 {
   grid-gap: 20px;
   padding: 20px; }
   .game-buy .game-card {
-    background-color: black;
+    background-color: #2c2c2c;
     color: white;
     border-radius: 5px;
     padding: 10px;
@@ -45,7 +45,7 @@ h2, p {
   margin: 10px 0; }
 
 button {
-  background-color: #333;
+  background-color: #272727;
   color: #fff;
   padding: 8px 16px;
   border: none;
@@ -69,7 +69,7 @@ main .skins-top {
   grid-gap: 20px;
   padding: 20px; }
   main .skins-top .skins-card {
-    background-color: #1d1c1c;
+    background-color: #2c2c2c;
     color: white;
     border-radius: 5px;
     padding: 10px;
@@ -108,20 +108,24 @@ main .skins-my {
         object-position: center; }
 
 /* Page Biblioteca */
-.flex-card {
+.flex-cards {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between; }
-  .flex-card .games-card {
+  .flex-cards .games-card {
     width: calc(25% - 20px);
     margin: 10px;
     background-color: #2c2c2c;
     border: 1px solid #222222;
     padding: 10px;
-    color: white; }
-    .flex-card .games-card .games-image img {
-      max-width: 100%;
-      height: auto; }
+    color: white;
+    transition: 1s; }
+  .flex-cards .games-image img {
+    max-width: 100%;
+    height: auto; }
+
+.biblioteca .games-card:hover {
+  transform: scale(1.1); }
 
 /* Page Nosotros */
 .hero h3 {
@@ -137,6 +141,7 @@ main .skins-my {
 footer img {
   width: 30px; }
 
+/* INDEX */
 /* Tablet */
 @media screen and (max-width: 900px) {
   .game-buy {
@@ -171,3 +176,14 @@ footer img {
   .inventario .skins-card {
     background-color: #1d1c1c;
     color: white; } }
+
+/* Biblioteca */
+/* Tablet */
+@media screen and (max-width: 900px) {
+  .biblioteca .games-card {
+    width: calc(33.33% - 20px); } }
+
+/* Telefono */
+@media screen and (max-width: 768px) {
+  .biblioteca .games-card {
+    width: calc(50% - 20px); } }

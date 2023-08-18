@@ -73,7 +73,10 @@ main .skins-top {
     color: white;
     border-radius: 5px;
     padding: 10px;
-    text-align: center; }
+    text-align: center;
+    transition: transform 0.3s ease; }
+    main .skins-top .skins-card:hover {
+      transform: scale(1.05); }
     main .skins-top .skins-card .skins-image {
       width: 100%;
       max-height: 200px;
@@ -95,7 +98,10 @@ main .skins-my {
     color: white;
     border-radius: 5px;
     padding: 10px;
-    text-align: center; }
+    text-align: center;
+    transition: transform 0.3s ease; }
+    main .skins-my .skins-card:hover {
+      transform: scale(1.05); }
     main .skins-my .skins-card .skins-image {
       width: 100%;
       max-height: 200px;

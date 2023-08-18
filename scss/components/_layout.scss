@@ -55,6 +55,7 @@
   }
   
     /* Page Inventario */
+    $transition-duration: 0.3s;
     main{
       h2{
         text-align: center;
@@ -77,6 +78,10 @@
         border-radius: 5px;
         padding: 10px;
         text-align: center;    
+        transition: transform $transition-duration ease;
+        &:hover {
+          transform: scale(1.05);
+        }
         .skins-image{
             width: 100%;
             max-height: 200px;
@@ -102,6 +107,10 @@
         border-radius: 5px;
         padding: 10px;
         text-align: center;    
+        transition: transform $transition-duration ease;
+        &:hover {
+          transform: scale(1.05);
+        }
         .skins-image{
             width: 100%;
             max-height: 200px;

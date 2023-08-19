@@ -1,0 +1,22 @@
+Título: NizGame
+Estimado Profesor Gaby,
+Me complace presentarle el proyecto web que he diseñado utilizando HTML y CSS. El objetivo de este proyecto es desarrollar una tienda online especializada en la venta de juegos y skins para videojuegos. A continuación, le proporciono una descripción detallada de la estructura y características de este sitio web.
+Página de Inicio - Index:
+La página de inicio presenta una interfaz limpia y atractiva, con un banner rotativo que muestra imágenes destacadas de los juegos más populares.
+Además, se incluye una barra de búsqueda mejorando así la experiencia de navegación.
+Tienda:
+La sección de catálogo exhibe una amplia gama de juegos para su compra. Cada producto cuenta con una imagen representativa,
+Inventario:
+La sección de inventario cuenta con 2 secciones, en la primera seccion tenemos las skins mas usadas por el usuario, y en otra seccion todas las skins del usuario.
+Biblioteca:
+En esta sección, se muestra los juegos adquiridos.
+Nosotros:
+Los clientes tienen acceso a un espacio donde poder conocernos más, ademas de poder contactar con nosotros.
+
+--------------------------------------------------------------------------------------------------------------------------
+Diseño Responsive:
+El sitio web está diseñado de manera responsive, lo que significa que se adapta automáticamente a diferentes tamaños de pantalla, como computadoras de escritorio, tabletas y dispositivos móviles. Esto asegura una experiencia de usuario consistente y cómoda en cualquier dispositivo.
+En resumen, el proyecto de esta tienda online NizGame es una plataforma completa que brinda a los entusiastas de los videojuegos la posibilidad de acceder y comprar productos relacionados con sus juegos favoritos de manera conveniente y segura. El uso de HTML y CSS ha permitido crear una interfaz atractiva y funcional que facilita la navegación.
+Agradezco la oportunidad de presentarle este proyecto y espero que lo encuentre adecuado y emocionante. Estoy a disposición para cualquier comentario o pregunta que pueda tener.
+Atentamente,
+Santiago La Paz
